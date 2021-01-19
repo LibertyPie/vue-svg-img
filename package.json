@@ -1,6 +1,6 @@
 {
   "name": "@libertypie/vue-svg-img",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A super lightweight vue library for injecting svg as inline",
   "main": "src/index.js",
   "scripts": {
