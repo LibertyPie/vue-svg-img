@@ -1,8 +1,8 @@
 {
-  "name": "vue-svg-img",
+  "name": "@libertypie/vue-svg-img",
   "version": "1.0.0",
   "description": "A super lightweight vue library for injecting svg as inline",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,10 @@
     "image",
     "html5"
   ],
-  "author": "LibertyPie",
+  "author": {
+    "name": "LibertyPie",
+    "email": "hello@libertypie.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LibertyPie/vue-svg-img/issues"
