@@ -1,4 +1,4 @@
-# vue-svg-img
+# Intro
 A super light weight and fast vue plugin for injecting svg as inline on runtime
 
 # Install
@@ -20,7 +20,7 @@ A super light weight and fast vue plugin for injecting svg as inline on runtime
     import vueSvgImg from 'vue-img-svg'
 
     Vue.use(vueSvgImg)
-```;
+```
 
 ## vue 3
 ```js 
@@ -29,7 +29,7 @@ A super light weight and fast vue plugin for injecting svg as inline on runtime
     .use(vueSvgImg)
     ...
     .mount('#app');
-```;
+```
 
 ## Using in template
 ```html
