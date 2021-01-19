@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import SVGInjector from 'svg-injector'
 
 export default {
     name: "svg-img",
