@@ -29,7 +29,5 @@
     "url": "https://github.com/LibertyPie/vue-svg-img/issues"
   },
   "homepage": "https://github.com/LibertyPie/vue-svg-img#readme",
-  "dependencies": {
-    "svg-injector": "^1.1.3"
-  }
+  "dependencies": {}
 }
