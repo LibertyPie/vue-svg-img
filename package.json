@@ -1,0 +1,32 @@
+{
+  "name": "vue-svg-img",
+  "version": "1.0.0",
+  "description": "A super lightweight vue library for injecting svg as inline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LibertyPie/vue-svg-img.git"
+  },
+  "keywords": [
+    "vue",
+    "svg",
+    "inline",
+    "injector",
+    "webpack",
+    "spa",
+    "image",
+    "html5"
+  ],
+  "author": "LibertyPie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LibertyPie/vue-svg-img/issues"
+  },
+  "homepage": "https://github.com/LibertyPie/vue-svg-img#readme",
+  "dependencies": {
+    "svg-injector": "^1.1.3"
+  }
+}
