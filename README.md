@@ -5,12 +5,12 @@ A super light weight and fast vue plugin for injecting svg as inline on runtime
 
 ## yarn 
 ```sh 
- yarn add vue-img-svg
+ yarn add @libertypie/vue-svg-img
 ```
 
 ## npm 
 ```sh 
- npm i vue-img-svg
+ npm i @libertypie/vue-svg-img
 ```
 
 # Usage 
