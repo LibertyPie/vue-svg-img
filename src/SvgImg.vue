@@ -84,7 +84,7 @@ export default {
           })
         }
 
-        svgEl.classList = svgElClasses;
+        svgEl.setAttribute("class",svgElClasses.join(" "));
 
         imgEl.parentNode.innerHTML = el.innerHTML;
     }
