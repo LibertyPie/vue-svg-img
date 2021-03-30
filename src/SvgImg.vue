@@ -65,26 +65,32 @@ export default {
         }
 
         //lets get svg classes 
-        let svgElClasses = svgEl.classList;
+        let svgElClasses = Array.from(svgEl.classList);
         
         //delete src and data-src fields
         delete attrs['src'];
         delete attrs['data-src'];
 
         if(svgEl) {
+          
           //lets get the svg  and replace the attrs 
-          Array.from(attrs).forEach(item => {
+          Object.keys(attrs).forEach(name => {
 
-              if(this.name == 'class'){ 
-                svgElClasses = [...svgElClasses, ...item.value]; 
+            let value = attrs[name]
+
+              if(name == 'class'){ 
+                svgElClasses = [...svgElClasses, ...value.split(" ")]; 
                 return;
               }
 
-              svgEl.setAttribute(item.name, item.value)
+              svgEl.setAttribute(name, value)
           })
         }
 
+        
         svgEl.setAttribute("class",svgElClasses.join(" "));
+
+        //console.log(svgEl.outerHTML)
 
         imgEl.parentNode.innerHTML = el.innerHTML;
     }
