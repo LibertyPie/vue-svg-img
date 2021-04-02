@@ -60,7 +60,7 @@ export default {
         let svgEl = el.querySelector("svg")
 
         if(!svgEl){
-          this.$$emit("on-error",new Error('no_svg_data_found'))
+          this.$emit("on-error",new Error('no_svg_data_found'))
           return;
         }
 
