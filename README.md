@@ -17,14 +17,14 @@ A super light weight and fast vue plugin for injecting svg as inline on runtime
 
 ## vue 2
 ```js 
-    import vueSvgImg from 'vue-img-svg'
+    import vueSvgImg from '@libertypie/vue-svg-img'
 
     Vue.use(vueSvgImg)
 ```
 
 ## vue 3
 ```js 
-    import vueSvgImg from 'vue-img-svg'
+    import vueSvgImg from '@libertypie/vue-svg-img'
     createApp(App)
     .use(vueSvgImg)
     ...
