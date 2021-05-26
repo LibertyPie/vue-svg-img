@@ -33,5 +33,5 @@ A super light weight and fast vue plugin for injecting svg as inline on runtime
 
 ## Using in template
 ```html
-    <img-svg src="https://libertypie.com/assets/img/logo.svg" class="logo" />
+    <svg-img src="https://libertypie.com/assets/img/logo.svg" class="logo" />
 ```
